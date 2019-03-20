@@ -1,5 +1,6 @@
 {
     "name": "icawebdesign/git-info",
+    "version": "1.0.0",
     "description": "Get info for your project from the .git directory.",
     "keywords": [
         "icawebdesign",
@@ -20,7 +21,9 @@
         "ext-mbstring": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.0"
+        "phpmd/phpmd": "^2.6",
+        "phpunit/phpunit": "^8.0",
+        "squizlabs/php_codesniffer": "^3.4"
     },
     "autoload": {
         "psr-4": {
