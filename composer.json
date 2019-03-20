@@ -1,0 +1,43 @@
+{
+    "name": "icawebdesign/git-info",
+    "description": "Get info for your project from the .git directory.",
+    "keywords": [
+        "icawebdesign",
+        "git-info"
+    ],
+    "homepage": "https://github.com/icawebdesign/git-info",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ian.H",
+            "email": "ian@ianh.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Icawebdesign\\GitInfo\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Icawebdesign\\GitInfo\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
