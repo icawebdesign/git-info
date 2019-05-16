@@ -16,9 +16,15 @@ class GitInfoTest extends TestCase
     {
         parent::setUp();
 
-        $rootPath = __DIR__ . '/..';
+        $rootPath = __DIR__;
         $this->gitInfo = new GitInfo($rootPath, new GitBranchEntity(), new GitCommitEntity());
     }
+
+    public function tearDown(): void
+    {
+        $this->gitInfo = null;
+    }
+
     /** @test */
     public function getting_branch_info_returns_the_a_git_branch_entity(): void
     {

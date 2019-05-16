@@ -1,8 +1,7 @@
-# Very short description of the package
+# PHP library to read git info from a .git directory
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/icawebdesign/git-info.svg?style=flat-square)](https://packagist.org/packages/icawebdesign/git-info)
-[![Build Status](https://img.shields.io/travis/icawebdesign/git-info/master.svg?style=flat-square)](https://travis-ci.org/icawebdesign/git-info)
-[![Quality Score](https://img.shields.io/scrutinizer/g/icawebdesign/git-info.svg?style=flat-square)](https://scrutinizer-ci.com/g/icawebdesign/git-info)
+[![pipeline status](https://gitlab.2up.io/ian/git-info/badges/master/pipeline.svg)](https://gitlab.2up.io/ian/git-info/commits/master)
 [![Total Downloads](https://img.shields.io/packagist/dt/icawebdesign/git-info.svg?style=flat-square)](https://packagist.org/packages/icawebdesign/git-info)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
